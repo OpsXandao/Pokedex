@@ -5,42 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
     <title>Pokedéx</title>
 </head>
 <body>
 
-    <section class="contet">
-        <h1>Pokedex</h1>
+    <section class="content">
+        <h1>Pokedéx</h1>
 
         <ol class="pokemons">
-            <li>
-                Bulbasaur
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="">
-            </li>
-
-            <li>
-                Ivysaur
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif" alt="">
-            </li>
-
-            <li>
-                Venomsaur
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif" alt="">
-            </li>
-
-            <li>
-                Charmander
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" alt="">
-            </li>
-
-            <li>
-                Charmeleon
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif" alt="">
-            </li>
-
-            <li>
-                Charizard
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="">
+            <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">Bulbasaur</span>
+                
+                <div class="detail">
+                    <ol class="types">
+                        <li id="type-grass" class="type" >Grass</li>
+                        <li id="type-poison" class="type">Poison</li>
+                    </ol>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="">
+                </div>
             </li>
         </ol>
     </section>
