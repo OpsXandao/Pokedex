@@ -49,8 +49,9 @@
     color: white;
     border-radius: 1rem;
     padding: .25rem .5rem;
-    margin: .25rem;
+    margin: .25rem 0;
     font-size: .625rem;
+    border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
 }
@@ -60,12 +61,8 @@
     height: 70px;
 }
 
-#type-poison{
-    background-color: purple;
-}
-
-#type-grass{
-    background-color: green;
+.type{
+    background-color: rgba(27, 27, 27, 0.267);
 }
 
 @media screen and (min-width: 380px) {
