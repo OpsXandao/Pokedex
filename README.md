@@ -2,7 +2,7 @@
 
 ![preview](/github/preview.gif)
 
-[>>>>>>>>>> Click here to give a look <<<<<<<<<<](https://opsxandao.github.io/pokedex)
+[>>>>>>>>>> Click here to give a look <<<<<<<<<<](https://opsxandao.github.io/pokedex/)
 
 ## Sobre o projeto/ About the project
 
