@@ -1,4 +1,4 @@
-## Site fictício de aulas de surf /Fictitious surf lessons website
+## Pokedex
 
 ![preview](/github/preview.gif)
 
