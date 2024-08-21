@@ -23,6 +23,8 @@
 
 •	🧶 Git & Git Hub
 
+•	🐋 Docker
+
 ## Ícones/ Icons
 
 •	📦 Nova funcionalidade/ New functionality
