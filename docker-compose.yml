@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  web:
+    build: .
+    ports:
+      - "4500:80"
+    networks:
+      - minha-rede
+
+networks:
+  minha-rede:
+    driver: bridge
